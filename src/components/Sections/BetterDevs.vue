@@ -1,18 +1,18 @@
 <template>
-  <section id="connections">
+  <section id="betterDevs">
     <b-container>
       <div class="content">
         <div class="image">
           <div class="profile-image">
-            <b-img src="../../assets/images/connections.png" fluid></b-img>
+            <b-img src="../../assets/images/community.png" fluid></b-img>
           </div>
         </div>
         <div class="description">
           <div class="divider"></div>
-          <h2>Conexão é a chave para as maiores oportunidades</h2>
+          <h2>Devs melhores, aplicações melhores, um mundo melhor</h2>
           <p>
-            Uma comunidade incrível e todo o ecossistema de tecnologia na mesma
-            plataforma.
+            Uma experiência com propósito para impulsionar sua carreira e
+            transformar o mundo.
           </p>
         </div>
       </div>
@@ -22,11 +22,19 @@
 
 <script>
 export default {
-  name: 'Connections',
+  name: 'BetterDevs',
 };
 </script>
 
 <style lang="scss">
 @import "../../assets/scss/style.scss";
 
+#betterDevs {
+  .image {
+    &:before,
+    &:after {
+      background: none !important;
+    }
+  }
+}
 </style>

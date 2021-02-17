@@ -4,6 +4,8 @@
     <Hero />
     <Trust />
     <Connections />
+    <Achievements />
+    <BetterDevs />
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Navbar from '@/components/Navigation/Navbar.vue';
 import Hero from '@/components/Sections/Hero.vue';
 import Trust from '@/components/Sections/Trust.vue';
 import Connections from '@/components/Sections/Connections.vue';
+import Achievements from '@/components/Sections/Achievements.vue';
+import BetterDevs from '@/components/Sections/BetterDevs.vue';
 
 export default {
   name: 'Home',
@@ -21,6 +25,8 @@ export default {
     Hero,
     Trust,
     Connections,
+    Achievements,
+    BetterDevs,
   },
 };
 </script>
