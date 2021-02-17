@@ -2,7 +2,7 @@
   <section id="hero">
     <b-container>
       <b-row>
-        <h1>Evolua rápido como a tecnologia.</h1>
+        <h1>Evolua rápido como a tecnologia<b>.</b></h1>
         <div class="hero-content">
           <p>
             Junte-se a milhares de devs e acelere na direção dos seus objetivos.
@@ -13,7 +13,7 @@
         </div>
         <div class="hero-shades">
           <b-img
-            src="https://rocketseat.com.br/_next/image?url=%2Fimages%2Fhome%2Fheadline.png&w=2240&q=75"
+            src="../../assets/images/hero.png"
             fluid
           ></b-img>
         </div>
@@ -53,6 +53,10 @@ export default {
     max-width: 320px;
     font-size: 18px;
     line-height: 156%;
+  }
+
+  b {
+    color: $green !important;
   }
 
   .btn__primary {
