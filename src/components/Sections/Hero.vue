@@ -2,12 +2,12 @@
   <section id="hero">
     <b-container>
       <b-row>
-        <h1>Evolua rápido como a tecnologia<b>.</b></h1>
+        <h1 data-aos="fade-up">Evolua rápido como a tecnologia<b>.</b></h1>
         <div class="hero-content">
-          <p>
+          <p data-aos="fade-right" data-aos-delay="200">
             Junte-se a milhares de devs e acelere na direção dos seus objetivos.
           </p>
-          <b-button variant="primary" class="btn__primary"
+          <b-button variant="primary" class="btn__primary" data-aos="fade-left"
             >Embarcar no foguete</b-button
           >
         </div>
@@ -15,6 +15,7 @@
           <b-img
             src="../../assets/images/hero.png"
             fluid
+            data-aos="zoom-in"
           ></b-img>
         </div>
       </b-row>

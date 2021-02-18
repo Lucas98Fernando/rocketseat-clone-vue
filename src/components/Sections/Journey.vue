@@ -2,13 +2,13 @@
   <section id="journey">
     <div class="journey-header">
       <div class="journey-header-content">
-        <h2>Jornada de evolução contínua</h2>
-        <p>
+        <h2 data-aos="fade-right" data-aos-delay="200">Jornada de evolução contínua</h2>
+        <p data-aos="fade-up" data-aos-delay="200">
           Conheça as órbitas de aprendizado que vão impulsionar cada etapa da
           sua carreira.
         </p>
       </div>
-      <div class="cards-grid">
+      <div class="cards-grid" data-aos="zoom-in" data-aos-delay="200">
         <div class="cards-content">
           <div><strong>Iniciante</strong><span>01</span></div>
           <header>

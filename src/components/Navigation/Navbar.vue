@@ -14,7 +14,7 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-button variant="primary" class="btn__primary">Entrar</b-button>
+          <b-button variant="primary" class="btn__primary" data-aos="zoom-in">Entrar</b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

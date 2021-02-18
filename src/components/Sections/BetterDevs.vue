@@ -1,16 +1,17 @@
+<!-- eslint-disable max-len -->
 <template>
   <section id="betterDevs">
     <b-container>
       <div class="content">
         <div class="image">
           <div class="devs-image">
-            <b-img src="../../assets/images/community.png" fluid></b-img>
+            <b-img src="../../assets/images/community.png" fluid data-aos="fade-right" data-aos-delay="200"></b-img>
           </div>
         </div>
         <div class="description devs">
           <div class="divider"></div>
-          <h2>Devs melhores, aplicações melhores, um mundo melhor</h2>
-          <p>
+          <h2 data-aos="fade-left" data-aos-delay="200">Devs melhores, aplicações melhores, um mundo melhor</h2>
+          <p data-aos="fade-up" data-aos-delay="200">
             Uma experiência com propósito para impulsionar sua carreira e
             transformar o mundo.
           </p>

@@ -3,11 +3,11 @@
     <b-container>
         <h2>Empresas que confiam no nosso trabalho</h2>
         <div class="companies">
-          <div><Globo /></div>
-          <div><Zup /></div>
-          <div><Neon /></div>
-          <div><VanHack /></div>
-          <div><Zenvia /></div>
+          <div data-aos="zoom-in" data-aos-delay="200"><Globo /></div>
+          <div data-aos="zoom-in" data-aos-delay="400"><Zup /></div>
+          <div data-aos="zoom-in" data-aos-delay="600"><Neon /></div>
+          <div data-aos="zoom-in" data-aos-delay="800"><VanHack /></div>
+          <div data-aos="zoom-in" data-aos-delay="1000"><Zenvia /></div>
         </div>
     </b-container>
   </section>

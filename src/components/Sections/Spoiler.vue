@@ -3,12 +3,12 @@
         <section id="spoiler">
             <Alert />
             <b-container class="container-alert">
-                <h2>Spoiler alert!</h2>
-                <p>
+                <h2 data-aos="zoom-in" data-aos-delay="200">Spoiler alert!</h2>
+                <p data-aos="fade-right" data-aos-delay="200">
                     As funcionalidades serão liberadas ao longo dos próximos meses.
                     Embarque porque o foguete está decolando.
                 </p>
-                <strong>Novidades a caminho</strong>
+                <strong data-aos="fade-left" data-aos-delay="200">Novidades a caminho</strong>
             </b-container>
         </section>
     </div>
