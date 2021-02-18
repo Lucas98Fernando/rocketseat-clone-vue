@@ -1,12 +1,18 @@
 @import './variables.scss';
+@import './fonts.scss';
 
 html,
 body {
     overflow-x: hidden;
 }
 
+h1, h2, h3 {
+    font-family: 'HelveticaBold', sans-serif;
+}
+
 body {
     background: $black !important;
+    font-family: "Arial", sans-serif !important;
 }
 
 #connections,
@@ -58,7 +64,8 @@ body {
         }
 
         .profile-image,
-        .gamification-image {
+        .gamification-image
+        .devs-image {
             display: block;
             overflow: hidden;
             position: relative;
@@ -71,6 +78,10 @@ body {
             width: 100%;
             height: 100%;
             max-width: 460px;
+
+            &.devs {
+                max-width: 560px !important;
+            }
 
             .divider {
                 background-color: $green;

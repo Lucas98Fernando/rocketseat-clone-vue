@@ -6,6 +6,7 @@
     <Connections />
     <Achievements />
     <BetterDevs />
+    <Spoiler />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Trust from '@/components/Sections/Trust.vue';
 import Connections from '@/components/Sections/Connections.vue';
 import Achievements from '@/components/Sections/Achievements.vue';
 import BetterDevs from '@/components/Sections/BetterDevs.vue';
+import Spoiler from '@/components/Sections/Spoiler.vue';
 
 export default {
   name: 'Home',
@@ -27,6 +29,7 @@ export default {
     Connections,
     Achievements,
     BetterDevs,
+    Spoiler,
   },
 };
 </script>
