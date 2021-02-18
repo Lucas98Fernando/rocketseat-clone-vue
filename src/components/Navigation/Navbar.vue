@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-navbar toggleable="lg" type="dark">
+    <b-navbar id="navbar" toggleable="lg" type="dark">
       <b-navbar-brand href="#">
         <Logo />
       </b-navbar-brand>

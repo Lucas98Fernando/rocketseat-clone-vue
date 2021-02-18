@@ -7,6 +7,9 @@
     <Achievements />
     <BetterDevs />
     <Spoiler />
+    <Journey />
+    <Account />
+    <Footer />
   </div>
 </template>
 
@@ -19,6 +22,9 @@ import Connections from '@/components/Sections/Connections.vue';
 import Achievements from '@/components/Sections/Achievements.vue';
 import BetterDevs from '@/components/Sections/BetterDevs.vue';
 import Spoiler from '@/components/Sections/Spoiler.vue';
+import Journey from '@/components/Sections/Journey.vue';
+import Account from '@/components/Sections/Account.vue';
+import Footer from '@/components/Footer/Footer.vue';
 
 export default {
   name: 'Home',
@@ -30,6 +36,9 @@ export default {
     Achievements,
     BetterDevs,
     Spoiler,
+    Journey,
+    Account,
+    Footer,
   },
 };
 </script>
