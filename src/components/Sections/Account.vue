@@ -1,15 +1,16 @@
+<!-- eslint-disable max-len -->
 <template>
   <div class="bg-divider">
     <section class="card-account">
       <div class="card-account-header">
-        <h2>Mais de <b>200 mil devs</b> <br> já se conectaram.</h2>
+        <h2 data-aos="fade-right" data-aos-delay="200">Mais de <b>200 mil devs</b> <br> já se conectaram.</h2>
       </div>
       <div class="card-account-description">
-        <p>
+        <p data-aos="fade-up" data-aos-delay="200">
           Embarque nesse foguete e comece a avançar agora mesmo na direção dos
           seus objetivos.
         </p>
-        <a href="#" class="btn-create-account">Criar minha conta</a>
+        <a href="#" class="btn-create-account" data-aos="zoom-in" data-aos-delay="200">Criar minha conta</a>
       </div>
     </section>
   </div>

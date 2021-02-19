@@ -1,24 +1,26 @@
 <template>
   <footer id="footer">
     <div class="footer-content">
+      <div data-aos="zoom-in" data-aos-delay="200">
       <Logo />
+      </div>
       <ul class="footer-links">
-        <li><a href="#">Direitos autorais</a></li>
-        <li><a href="#">Termos de uso</a></li>
-        <li><a href="#">Políticas de privacidade</a></li>
+        <li><a href="#" data-aos="fade-left" data-aos-delay="400">Direitos autorais</a></li>
+        <li><a href="#" data-aos="fade-left" data-aos-delay="400">Termos de uso</a></li>
+        <li><a href="#" data-aos="fade-left" data-aos-delay="400">Políticas de privacidade</a></li>
       </ul>
       <ul class="social-icons">
         <li>
-          <a href="#"><Facebook /></a>
+          <a href="#" data-aos="zoom-in" data-aos-delay="400"><Facebook /></a>
         </li>
         <li>
-          <a href="#"><Instagram /></a>
+          <a href="#" data-aos="zoom-in" data-aos-delay="400"><Instagram /></a>
         </li>
         <li>
-          <a href="#"><Twitter /></a>
+          <a href="#" data-aos="zoom-in" data-aos-delay="400"><Twitter /></a>
         </li>
         <li>
-          <a href="#"><YouTube /></a>
+          <a href="#" data-aos="zoom-in" data-aos-delay="400"><YouTube /></a>
         </li>
       </ul>
       <a href="#" class="help">Central de ajuda</a>
