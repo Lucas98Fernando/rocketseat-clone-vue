@@ -6,7 +6,7 @@
     viewBox="0 0 117 42"
     fill="#6e6e72"
     style="align-self: flex-start"
-    class="css-1ggwgve"
+    class="icons-svg"
   >
     <g clip-path="url(#zenvia_svg__clip0)" fill="#6e6e72">
       <path

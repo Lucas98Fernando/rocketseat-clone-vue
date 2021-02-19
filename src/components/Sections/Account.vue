@@ -33,7 +33,7 @@ export default {
     background: #202024;
     width: 100%;
     border-radius: 5px;
-    padding: 80px !important;
+    padding: 80px;
     position: absolute;
     top: 0;
     right: 0;

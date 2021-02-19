@@ -33,7 +33,7 @@ export default {
 @import "../../assets/scss/style.scss";
 
 #hero {
-  margin: 7rem 0;
+  padding: 7rem 0;
 
   h1 {
     font-size: 64px;

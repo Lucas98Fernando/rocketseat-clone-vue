@@ -38,6 +38,10 @@ export default {
 .navbar {
   padding-top: 32px !important;
 
+  .navbar-toggler {
+    border: none;
+  }
+
   .btn__primary {
    order: none;
     outline: none;

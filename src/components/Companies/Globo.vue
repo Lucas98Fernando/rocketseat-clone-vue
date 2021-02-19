@@ -5,7 +5,7 @@
     height="42"
     viewBox="0 0 128 42"
     fill="#6e6e72"
-    class="css-171pj64"
+    class="icons-svg"
   >
     <path
       fill-rule="evenodd"

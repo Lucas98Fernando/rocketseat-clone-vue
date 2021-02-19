@@ -5,7 +5,7 @@
     height="31"
     viewBox="0 0 142 31"
     fill="#6e6e72"
-    class="css-1vjkwc8"
+    class="icons-svg"
   >
     <g clip-path="url(#clip0)">
       <path

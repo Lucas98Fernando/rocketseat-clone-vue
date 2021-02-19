@@ -1,0 +1,150 @@
+@media (max-width: 480px) {
+    .navbar {
+        .logo {
+            max-width: 140px !important;
+        }
+    }
+
+    #hero {
+        padding: 5rem 1rem !important;
+
+        .hero-content {
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 16px 0 48px 0;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 40px;
+            max-width: 275px;
+        }
+
+        p {
+            font-size: 15px;
+            max-width: 260px;
+            margin-bottom: 16px;
+        }
+
+        .btn__primary {
+            max-width: 280px !important;
+            font-size: 15px;
+            height: 56px;
+        }
+    }
+
+    #trust {
+        margin: 5rem 0 !important;
+
+        .companies {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            grid-row-gap: 0;
+            max-width: 100%;
+            margin: 0 auto;
+            padding-top: 40px;
+
+            & div {
+                height: 55px;
+                width: calc((100% / 3));
+            }
+
+            .icons-svg {
+                max-width: 85px;
+            }
+        }
+    }
+
+    #connections,
+    #achievements,
+    #betterDevs {
+        .content {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 10px !important;
+
+            .image {
+                order: 2;
+                margin-top: 64px;
+            }
+
+            .description {
+                max-width: 287px;
+                margin-left: 0 !important;
+
+                h2 {
+                    font-size: 30px !important;
+                    line-height: 117%;
+                    padding: 24px 0 16px 0;
+                }
+
+                p {
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+
+    .outside {
+        #spoiler {
+            h2 {
+                font-size: 30px;
+                line-height: 35px;
+                padding-top: 16px;
+            }
+        }
+    }
+
+    #journey {
+        .journey-header {
+            .journey-header-content {
+                h2 {
+                    font-size: 30px;
+                    max-width: 250px;
+                }
+
+                p {
+                    font-size: 15px;
+                    margin-top: 16px;
+                    max-width: 310px;
+                }
+            }
+
+            .cards-grid {
+                grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+            }
+        }
+    }
+
+    .card-account {
+        padding: 40px !important;
+        max-width: calc(100% - 48px) !important;
+
+        .card-account-header {
+            h2 {
+                max-width: 183px;
+                margin-right: auto;
+                font-size: 30px !important;
+                line-height: 35px !important;
+            }
+        }
+
+        .card-account-description {
+            flex-direction: column;
+        }
+    }
+}
