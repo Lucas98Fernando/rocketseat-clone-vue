@@ -2,6 +2,10 @@
 @import './custom.scss';
 @import './scrollBar.scss';
 
+// Media Queries for responsive
+@import './MediaQueries/media1168px.scss';
+@import './MediaQueries/media870px.scss';
+
 // Then import Bootstrap an BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';

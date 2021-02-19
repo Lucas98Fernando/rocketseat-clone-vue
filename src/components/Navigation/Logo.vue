@@ -6,7 +6,7 @@
     viewBox="0 0 180 34"
     fill="none"
     aria-hidden="true"
-    class="css-1r0dere"
+    class="logo"
     data-aos="zoom-in"
   >
     <path

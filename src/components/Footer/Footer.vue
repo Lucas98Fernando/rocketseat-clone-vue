@@ -1,9 +1,7 @@
 <template>
   <footer id="footer">
     <div class="footer-content">
-      <div data-aos="zoom-in" data-aos-delay="200">
       <Logo />
-      </div>
       <ul class="footer-links">
         <li><a href="#" data-aos="fade-left" data-aos-delay="400">Direitos autorais</a></li>
         <li><a href="#" data-aos="fade-left" data-aos-delay="400">Termos de uso</a></li>

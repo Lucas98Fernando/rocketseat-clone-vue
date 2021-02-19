@@ -1,0 +1,34 @@
+@media (max-width: 1168px) {
+    #connections, #betterDevs {
+        .description {
+            margin-left: 40px !important;
+
+            h2 {
+                font-size: 40px !important;
+            }
+        }
+    }
+
+    #achievements {
+        .description {
+            h2 {
+                font-size: 40px !important;
+            }
+        }
+    }
+
+    #journey {
+        padding: 0 30px !important;
+
+        .cards-grid {
+            grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+            grid-auto-flow: row !important;
+        }
+    }
+
+    #footer {
+        .footer-content {
+            padding: 0 26px !important;
+        }
+    }
+}
